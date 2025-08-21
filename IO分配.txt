@@ -1,0 +1,44 @@
+1.OLED屏幕：
+	SCLK:PB13
+	MOSI:PB15
+	RES:PB14
+	DC:PB12
+	CS:悬空
+	VCC:3.3V
+	
+2.SX1280
+	SCK:PA5
+	MOSI:PA7
+	MISO:PA6
+	NSS_CTS:PA4
+	BUSY:PA11
+	NRESET:PA15
+	TX_EN:PA12
+	RX_EN:PB1
+
+3.摇杆：
+	摇杆1：
+		油门：PA0
+		偏航：PA1
+	摇杆2：
+		俯仰：PA2
+		横滚：PA3
+4.电池电压检测：
+	PB0 - 实际电压 = 检测电压 * 5
+	
+5.按键：
+	上：PB3
+	下：PB5
+	左：PB4
+	右：PB6
+	中：PB9
+	确认：PB8
+	返回：PB7
+	后左：PB10
+	后右：PB11
+
+接口仓接口定义：
+	+   +   +
+	SCK DIO GND  （USART1）
+	+  +  +
+  	TX RX GND     (SWD)
