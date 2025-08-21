@@ -1,0 +1,5 @@
+IO分布
+VCC    3.3V
+GND   GND
+SCL-PB6  
+SDA -PB7  
